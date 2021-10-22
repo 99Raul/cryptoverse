@@ -9,6 +9,7 @@ import {
 	CryptoDetails,
 	News,
 	Homepage,
+	ScrollToTop,
 } from './components';
 import './App.css';
 
@@ -21,6 +22,7 @@ const App = () => {
 			<div className='main'>
 				<Layout>
 					<div className='routes'>
+						<ScrollToTop />
 						<Switch>
 							<Route exact path='/'>
 								<Homepage />
